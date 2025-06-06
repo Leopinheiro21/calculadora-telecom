@@ -62,8 +62,8 @@ def seno():
     num = get_float_input("Digite o ângulo em radianos para seno: ")
     return math.sin(num)
 
-def coseno():
-    num = get_float_input("Digite o ângulo em radianos para coseno: ")
+def cosseno():
+    num = get_float_input("Digite o ângulo em radianos para cosseno: ")
     return math.cos(num)
 
 def tangente():
@@ -166,7 +166,7 @@ def calculadora_telecom():
         "7": (logaritmo, "Logaritmo"),
         "8": (logaritmo_base_10, "Logaritmo de Base 10"),
         "9": (seno, "Seno"),
-        "10": (coseno, "Coseno"),
+        "10": (cosseno, "Cosseno"),
         "11": (tangente, "Tangente"),
         "12": (db_para_linear, "Conversão de dB para Linear"),
         "13": (linear_para_db, "Conversão de Linear para dB"),
